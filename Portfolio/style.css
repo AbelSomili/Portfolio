@@ -177,3 +177,13 @@ span {
 .btn:hover {
     box-shadow: 0 0 1.6rem var(--main-color);
 }
+
+/* About section code */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--snd-bg-color);
+}
