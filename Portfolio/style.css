@@ -202,4 +202,27 @@ span {
     box-shadow: 0 0 25px var(--main-color),
                 0 0 35px var(--main-color),
                 0 0 45px var(--main-color);
+} 
+
+.heading {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.about-content {
+    padding: 0 4rem;
+}
+
+.about.content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 3rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
