@@ -67,6 +67,10 @@ section {
     transition: 0.3s ease;
 }
 
+.navbr a {
+    padding: 17px;
+}
+
 .navbr a:hover,
 .navbr a.active {
     color: var(--text-color);
