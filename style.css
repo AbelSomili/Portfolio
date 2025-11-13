@@ -355,6 +355,14 @@ span {
         transition: all 0.5s ease;
         backdrop-filter: blur(10px);
     }
+    .navbr a {
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+    .navbr .active {
+        right: 0;
+    }
 }
 
 /* Finally Lol :) */
