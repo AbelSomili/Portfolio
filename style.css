@@ -31,7 +31,7 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-/* Header Section code */
+/***** Header Section code *************/
 
 .header {
     position: fixed;
@@ -79,7 +79,7 @@ section {
     display: none;
 }
 
-/* Home Section Code */
+/***** Home Section code ****/
 .home {
     display: flex;
     justify-content: center;
@@ -179,7 +179,7 @@ span {
     box-shadow: 0 0 1.6rem var(--main-color);
 }
 
-/* About section code */
+/*** About section code *****/
 
 .about {
     display: flex;
@@ -227,7 +227,7 @@ span {
     margin: 2rem 0 3rem;
 }
 
-/* My Skills section code */
+/***** My Skills section code *****/
 .skills h2 {
     text-align: center;
     margin-bottom: 5rem;
@@ -270,7 +270,7 @@ span {
     margin: 1rem 0 3rem;
 }
 
-/* Footer section code */
+/****** Footer section code ******/
 .footer {
     position: relative;
     bottom: 0;
@@ -312,7 +312,7 @@ span {
     color: var(--text-color);
 }
 
-/* Responsive design code */
+/***** Responsive design code *****/
 
 @media (max-width: 1200px) {
     html {
