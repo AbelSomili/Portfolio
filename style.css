@@ -331,4 +331,30 @@ span {
     section {
         padding: 10rem 3%;
     }
+    .skills {
+        padding: 10rem;
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
 }
+
+@media (max-width:) {
+    #menu-icon {
+        display: block;
+    }
+    .navbr {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 255px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--main-color);
+        transition: all 0.5s ease;
+        backdrop-filter: blur(10px);
+    }
+}
+
+/* Finally Lol :) */
