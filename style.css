@@ -44,7 +44,7 @@ section {
     justify-content: space-between;
     padding: 2rem 5%;
     background: var(--main-color);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
 }
 
 .logo {
@@ -272,4 +272,13 @@ span {
 .skills-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+
+/* Footer section code */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--snd-bg-color);
 }
