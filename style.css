@@ -59,16 +59,12 @@ section {
     transform: scale(1.05)
 }
 
-.navbr {
+.navbr a {
     font-size: 1.9rem;
     color: var(--bg-color);
     margin-left: 4rem;
     font-weight: 700;
-    transition: 0.3s ease;
-}
-
-.navbr a {
-    padding: 17px;
+    transition: 0.3s ease-in-out;
 }
 
 .navbr a:hover,
@@ -339,7 +335,7 @@ span {
     }
 }
 
-@media (max-width: 991) {
+@media (max-width: 786px) {
     #menu-icon {
         display: block;
     }
@@ -397,7 +393,7 @@ span {
     }
 }
 
-@media (max-width=617px) {
+@media (max-width=450px) {
     html {
         font-size: 50%;
     }
