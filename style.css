@@ -270,6 +270,20 @@ span {
     margin: 1rem 0 3rem;
 }
 
+/********* Projects Section Code ************/
+.projects h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
 /****** Footer section code ******/
 .footer {
     position: relative;
