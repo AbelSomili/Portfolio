@@ -304,6 +304,15 @@ span {
     color: var(--main-color);
 }
 
+.projects-box h3 {
+    font-size: 2.6rem;
+}
+
+.projects-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
 /****** Footer section code ******/
 .footer {
     position: relative;
@@ -364,6 +373,9 @@ span {
     .skills {
         padding: 10rem;
     }
+    .projects {
+        padding: 10rem;
+    }
     .footer {
         padding: 2rem 3%;
     }
@@ -418,6 +430,9 @@ span {
         margin-top: 4rem;
     }
     .skills h2 {
+        margin-bottom: 3rem;
+    }
+    .projects h2 {
         margin-bottom: 3rem;
     }
 }
