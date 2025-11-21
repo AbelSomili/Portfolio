@@ -294,6 +294,16 @@ span {
     transition: 0.3s ease;
 }
 
+.projects-container .porjects-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.projects-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
 /****** Footer section code ******/
 .footer {
     position: relative;
