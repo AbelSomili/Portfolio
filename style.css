@@ -284,6 +284,16 @@ span {
     gap: 2rem;
 }
 
+.projects-container .projects-box {
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 6rem 2rem 6rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.3rem solid var(--bg-color);
+    transition: 0.3s ease;
+}
+
 /****** Footer section code ******/
 .footer {
     position: relative;
